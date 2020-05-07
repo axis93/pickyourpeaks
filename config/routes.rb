@@ -5,4 +5,8 @@ Rails.application.routes.draw do
 	get 'about', to: 'pages#about'
 	get 'images', to: 'pages#images'
 	get 'trips', to: 'pages#trips'
+
+	resources :database
+
+	resources :peaks
 end

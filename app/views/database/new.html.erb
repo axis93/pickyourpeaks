@@ -1,0 +1,67 @@
+<h1> New data to insert</h1>
+
+<%= form_with scope: :peak, url: peaks_path, local: true do |form| %>
+  <p>
+    <%= form.label :name %><br>
+    <%= form.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= form.label :altitude %><br>
+    <%= form.text_area :altitude %>
+  </p>
+
+  <p>
+    <%= form.label :prominence %><br>
+    <%= form.text_area :prominence %>
+  </p>  
+
+  <p>
+    <%= form.label :prominence %><br>
+    <%= form.text_area :prominence %>
+  </p>
+
+    <p>
+    <%= form.label :isolation %><br>
+    <%= form.text_area :isolation %>
+  </p>
+
+    <p>
+    <%= form.label :key_col %><br>
+    <%= form.text_area :key_col %>
+  </p>
+
+    <p>
+    <%= form.label :source %><br>
+    <%= form.text_area :source %>
+  </p>
+
+    <p>
+    <%= form.label :accessibility %><br>
+    <%= form.text_area :accessibility %>
+  </p>
+
+  <p>
+    <%= form.label :land_use %><br>
+    <%= form.text_area :land_use %>
+  </p>
+
+    <p>
+    <%= form.label :hazard %><br>
+    <%= form.text_area :hazard %>
+  </p>
+
+    <p>
+    <%= form.label :longitude %><br>
+    <%= form.text_area :longitude %>
+  </p>
+
+    <p>
+    <%= form.label :latitude %><br>
+    <%= form.text_area :latitude %>
+  </p>
+ 
+  <p>
+    <%= form.submit %>
+  </p>
+<% end %>

@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  altitude: 
+  prominence: 
+  isolation: 
+  key_col: 
+  source: MyString
+  accessibility: 
+  land_use: MyString
+  longitude: 
+  latitude: 
+
+two:
+  name: MyString
+  altitude: 
+  prominence: 
+  isolation: 
+  key_col: 
+  source: MyString
+  accessibility: 
+  land_use: MyString
+  longitude: 
+  latitude: 
